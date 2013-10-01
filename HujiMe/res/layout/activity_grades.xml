@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_grades_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_gravity="right"
+        android:layout_weight="4" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/activity_grades_titles"
+            style="@style/TabsTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/activity_grades_average_button"
+            style="@style/MyButtonStyle"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/button_calculate_average" />
+
+        <TextView
+            android:id="@+id/activity_grades_text_average"
+            style="@style/SpecialText"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</LinearLayout>

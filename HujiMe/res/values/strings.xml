@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HujiMe</string>
+
+    <!-- Login  and Relogin Strings -->
+    <string name="login_ask_login_username">מספר זהות:</string>
+    <string name="login_ask_login_password">קוד אישי:</string>
+    <string name="login_ask_login_captcha">אימות מילה:</string>
+    <string name="login_captcha_description">captcha</string>
+    <string name="login_text_explain">הכניסה מחייבת מספר זהות (8 ספרות ללא ספרת ביקורת) וקוד אישי (לבעלי כרטיסים מחוללים סיסמאות, הקוד האישי הוא מהכרטיס)</string>
+
+    <!-- Grades Strings -->
+    <string name="grades_ask_for_password">הכנס קוד אישי</string>
+
+    <!-- Lessons Strings -->
+
+    <string name="lesson_hour">שעה</string>
+    <string name="lesson_place">מיקום</string>
+    <string name="lesson_name_type">שם וסוג השיעור</string>
+    <string name="lesson_edit_name">שם</string>
+    <string name="lesson_edit_place">מיקום</string>
+
+    <!-- Menu Strings -->
+    <string name="context_menu_lesson_edit">ערוך</string>
+    <string name="context_menu_lesson_delete">מחק</string>
+    <string name="context_menu_lesson_groups">קבוצות אחרות</string>
+    <string name="context_menu_lesson_to_map">חפש במפות</string>
+
+    <!-- Maps strings -->
+    <string name="static_map_GR">GivatRam_map.jpeg</string>
+    <string name="static_map_HZ">HarHazofim_map.jpeg</string>
+    <string name="static_map_EK">EinKerem_map.jpeg</string>
+    <string name="static_map_RH">Rehovot_map.jpeg</string>
+    <string name="choose">בחר</string>
+
+    <!-- General -->
+    <string name="new_line">\n</string>
+
+    <!-- Header for grade -->
+    <string name="header_grade_grade">ציון</string>
+    <string name="header_grade_points">נ.ז</string>
+    <string name="header_grade_name">שם הקורס</string>
+    <string name="header_grade_id">סמל הקורס</string>
+
+    <!-- Header for exams -->
+    <string name="header_exams_moed">מועד</string>
+    <string name="header_exams_date_time">יום ושעה</string>
+    <string name="header_exams_name">שם הקורס</string>
+    <string name="header_exams_id">סמל הקורס</string>
+    <string name="header_exams_place">מיקום</string>
+
+    <!-- Moed Strings -->
+    <string name="moed_a">א\'</string>
+    <string name="moed_b">ב\'</string>
+    <string name="moed_c">ג\'</string>
+
+    <!-- Title Strings -->
+    <string name="title_exams">מבחנים</string>
+    <string name="title_grades">ציונים</string>
+    <string name="title_settings">הגדרות</string>
+    <string name="title_lessons">מערכת שעות</string>
+    <string name="title_all">כל האופציות</string>
+    <string name="title_authentication">אימות</string>
+    <string name="title_shnaton_data">מידע משנתון</string>
+    <string name="title_maps">מפות</string>
+
+    <!-- Preferences titles -->
+    <string name="preferences_general">הגדרות כלליות</string>
+    <string name="preferences_grades_with_password">גישה לציונים עם סיסמא</string>
+    <string name="preferences_sync">הגדרות סנכרון</string>
+    <string name="preferences_sync_all">סנכרון מידע אישי</string>
+    <string name="preferences_sync_exams">סנכרן מועדי בחינות</string>
+    <string name="preferences_sync_lessons">סנכרן מערכת שעות</string>
+    <string name="preferences_sync_grades">סנכרן ציונים</string>
+    <string name="preferences_calendar">יומן</string>
+    <string name="preferences_calendar_all">הוסף מערכת שעות ומבחנים ליומן</string>
+    <string name="preferences_calendar_lessons">הוסף מערכת שעות ליומן</string>
+    <string name="preferences_calendar_exams">הוסף מבחנים ליומן</string>
+    <string name="preferences_clear">ניקוי והתנתקות</string>
+    <string name="preferences_clear_calendar">מחק כל המידע מיומן</string>
+    <string name="preferences_logout">התנתק</string>
+    <string name="preferences_clear_logout">התנתק ומחק המידע מהיומן</string>
+
+    <!-- Query other Lessons -->
+    <string name="other_lessons_place">אולם/קמפוס</string>
+    <string name="other_lessons_hours">שעה</string>
+    <string name="other_lessons_day_week">יום בשבוע</string>
+    <string name="other_lessons_day">יום בשבוע</string>
+    <string name="other_lessons_group">קבוצה</string>
+    <string name="other_lessons_type_of_lesson">סוג שיעור</string>
+    <string name="other_lessons_lecturer_name">שם המרצה</string>
+    <string name="other_lessons_lecturer">המרצה</string>
+
+    <!-- Progress Update -->
+    <string name="sync_lessons">סנכרון מערכת שעות</string>
+    <string name="sync_exams">סנכרון מבחנים</string>
+    <string name="sync_grades">סנכרון ציונים</string>
+    <string name="sync_shnaton">מתחבר לשנתון</string>
+
+    <!-- Notification messages -->
+    <string name="message_course_not_found">לא נמצאו קורסים</string>
+    <string name="message_update_failed">שגיאה בעידכון</string>
+    <string name="message_login_no_data">נא מלא/י את כל הפרטים: מספר זהות, קוד אישי והקוד בתמונה</string>
+    <string name="message_no_intenet_error">נדרש להתחבר לאינטרנט בשביל לגשת לשירותי המידע האישי</string>
+    <string name="message_some_internet_error">אין גישה לאינטרנט, בדוק חיבור לרשת</string>
+    <string name="message_huji_connection_error">"קיימת בעיה בחיבור לשירותי מידע אישי, נסה שוב מאוחר יותר"</string>
+    <string name="message_autocomplete">"אל מנת לראות את כל המקומות רשום בשדה חיפוש *"</string>
+    <string name="messages_edit_lesson_notification">שים לב, השינוי שתבצע עכשיו הינו שינוי מקומי בלבד</string>
+    <string name="messages_delete_lesson_notification">האם אתה בטוח שברצונך למחוק את השיעור </string>
+    <string name="message_sync">מבצע סנכרון</string>
+    <string name="message_select_calendar">בחר יומן</string>
+    <string name="message_sync_succed">סנכרון בוצע</string>
+    <string name="message_select_courses">בחר קורסים שתרצה לחשב לממוצע</string>
+ 	<string name="message_illegal_code">קוד לא נכון</string>
+ 	<string name="message_no_calendars">לא נמצאו יומנים</string>
+ 	<string name="message_operation_succeed">פעולה הסתיימה בהצלחה</string>
+    
+    
+    <!-- Grades Calculation -->
+    <string name="grades_text_total_average">ממוצע כולל</string>
+    <string name="grades_text_points">מספר נקודות זכות</string>
+
+    <!-- Button text -->
+    <string name="button_accept">אישור</string>
+    <string name="button_deny">ביטול</string>
+    <string name="button_enter">כניסה</string>
+    <string name="button_cancel">סגור</string>
+    <string name="button_text_display_all">הצג הכל</string>
+    <string name="button_text_to_googlemaps">עבור למפות</string>
+    <string name="button_save">שמור</string>
+    <string name="button_yes">כן</string>
+    <string name="button_no">לא</string>
+    <string name="button_calculate_average">חשב ממוצע עם התאמה אישית</string>
+
+    <!-- Lesson types -->
+    <string name="lesson_type_shiur">שיעור</string>
+    <string name="lesson_type_maabada">מעבדה</string>
+    <string name="lesson_type_tirgul">תרגול</string>
+    <string name="lesson_type_hadraha">הדרכה</string>
+    <string name="lesson_type_mehina">מכינה</string>
+    <string name="lesson_type_sadna">סדנה</string>
+    <string name="lesson_type_seminarion">סמינריון</string>
+    <string name="lesson_type_matala">מטלה</string>
+    <string name="lesson_type_siur">סיור</string>
+    <string name="lesson_type_shiur_seminarion">שיעור סמינריון</string>
+
+    <!-- Maps items -->
+    <string name="map_name_har_hazofim">הר הצופים</string>
+    <string name="map_name_givat_ram">גבעת רם</string>
+    <string name="map_name_ein_karem">עין כרם</string>
+    <string name="map_name_rehovot">רחובות</string>
+
+    <string-array name="campuses">
+        <item>הר הצופים</item>
+        <item>גבעת רם</item>
+        <item>עין כרם</item>
+        <item>רחובות</item>
+    </string-array>
+
+    <string name="campus">בחר קמפוס</string>
+
+</resources>

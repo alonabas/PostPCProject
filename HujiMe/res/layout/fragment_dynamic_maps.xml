@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <Spinner
+            android:id="@+id/fragment_dynamic_maps_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@drawable/border_edit_text"
+            android:entries="@array/campuses"
+            android:gravity="center"
+            android:popupBackground="@drawable/chooser_color"
+            android:prompt="@string/campus" />
+
+        <TextView
+            android:id="@+id/fragment_dinamic_maps_campus_text"
+            style="@style/SpecialText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/campus"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_dinamic_maps_campus_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:paddingBottom="5dp"
+        android:text="@string/message_autocomplete"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/fragment_dynamic_maps_spinner_autocomplete_text"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="6dip"
+        android:paddingLeft="8dip"
+       	android:paddingRight="8dip"
+        android:paddingBottom="6dip"
+        android:dropDownSelector="@drawable/abc_list_selector_background_transition_holo_light"
+        android:ems="10"
+        android:gravity="right"
+        android:popupBackground="@drawable/chooser_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/fragment_dynamic_maps_google_maps_button"
+            style="@style/MyButtonStyle"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="8dip"
+       		android:paddingRight="8dip"
+            android:text="@string/button_text_to_googlemaps" />
+    </LinearLayout>
+
+</LinearLayout>

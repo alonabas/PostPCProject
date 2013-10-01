@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_lessons_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/activity_lessons_titles"
+            style="@style/TabsTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_general" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_grades_access"
+            android:layout="@layout/preference_text_checkbox"
+            android:title="@string/preferences_grades_with_password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_sync" >
+        <Preference
+            android:key="settings_resync"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_sync_all" />
+        <Preference
+            android:key="settings_exams_resync"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_sync_exams" />
+        <Preference
+            android:key="settings_lessons_resync"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_sync_lessons" />
+        <Preference
+            android:key="settings_grades_resync"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_sync_grades" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_calendar" >
+        <Preference
+            android:key="settings_calendar"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_calendar_all" />
+        <Preference
+            android:key="settings_lessons_calendar"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_calendar_lessons" />
+        <Preference
+            android:key="settings_exams_calendar"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_calendar_exams" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_clear" >
+        <Preference
+            android:key="settings_calendar_clear"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_clear_calendar" />
+        <Preference
+            android:key="settings_login_screen"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_logout" />
+        <Preference
+            android:key="settings_login_screen_clear"
+            android:layout="@layout/preference_text"
+            android:title="@string/preferences_clear_logout" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

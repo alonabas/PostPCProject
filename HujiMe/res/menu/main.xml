@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_lessons"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_lessons">
+    </item>
+    <item
+        android:id="@+id/menu_grades"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_grades">
+    </item>
+    <item
+        android:id="@+id/menu_exams"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_exams"/>
+    <item
+        android:id="@+id/menu_maps"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_maps"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_settings"/>
+
+</menu>

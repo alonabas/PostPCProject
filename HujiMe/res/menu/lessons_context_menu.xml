@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_color" >
+
+    <item
+        android:id="@+id/lesson_edit"
+        android:icon="@drawable/my_button"
+        android:title="@string/context_menu_lesson_edit">
+    </item>
+    <item
+        android:id="@+id/lesson_remove"
+        android:icon="@drawable/my_button"
+        android:title="@string/context_menu_lesson_delete">
+    </item>
+    <item
+        android:id="@+id/lessonOtherGroups"
+        android:icon="@drawable/my_button"
+        android:title="@string/context_menu_lesson_groups">
+    </item>
+
+</menu>

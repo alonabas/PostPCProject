@@ -1,0 +1,107 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- My themes -->
+    <style name="CustomWindowTitleBackground" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/title_background</item>
+        <item name="android:titleTextStyle">@style/SpecialText</item>
+    </style>
+
+    <style name="listView1" parent="@android:style/Theme.Holo.Light.Panel">
+        <item name="android:windowBackground">@drawable/notifcation_style</item>
+        <item name="android:background">@drawable/notifcation_style</item>
+        <item name="android:listSelector">@drawable/abc_list_selector_background_transition_holo_light</item>
+        <item name="android:focusable">true</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:divider">@color/MyGray</item>
+        <item name="android:choiceMode">singleChoice</item>
+    </style>
+
+    <style name="customCheckBoxStyle" parent="@android:style/Widget.Holo.Light.CompoundButton.CheckBox"></style>
+
+    <style name="MyThemeWithBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowTitleSize">40dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:windowBackground">@drawable/background_color</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:dialogTheme">@style/Sample.Dialog</item>
+        <item name="android:panelBackground">@drawable/background_color</item>
+        <item name="android:actionBarStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:panelFullBackground">@drawable/background_color</item>
+        <item name="android:listViewStyle">@style/listView1</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:checkboxStyle">@style/customCheckBoxStyle</item>
+        <item name="actionBarWidgetTheme">@style/MyActionWidgetTheme</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:dialogTheme">@style/Sample.Dialog</item>
+        <item name="android:windowBackground">@drawable/notifcation_style</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:listViewStyle">@style/listView1</item>
+        <item name="android:checkboxStyle">@style/customCheckBoxStyle</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="TabsTheme">
+        <item name="android:background">@drawable/tab</item>
+        <item name="android:textStyle">@style/SpecialText</item>
+    </style>
+
+    <style name="MyActionWidgetTheme" parent="@android:style/Widget">
+        <item name="android:popupBackground">@drawable/notifcation_style</item>
+    </style>
+
+    <style name="SpecialText">
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:shadowColor">@color/DarkBlue</item>
+        <item name="android:shadowDx">0.5</item>
+        <item name="android:shadowDy">0.5</item>
+    </style>
+
+    <style name="MyPopupMenu" parent="android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:background">@drawable/notifcation_style</item>
+        <item name="android:popupBackground">@drawable/notifcation_style</item>
+    </style>
+
+    <style name="PaddingList">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="Sample.Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:popupBackground">@drawable/notifcation_style</item>
+        <item name="android:windowBackground">@drawable/notifcation_style</item>
+    </style>
+
+    <style name="MyButtonStyle" parent = "@style/SpecialText">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/my_button</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/border_edit_text</item>
+    </style>
+
+</resources>
